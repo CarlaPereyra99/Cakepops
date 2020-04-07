@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../image/PastelillosUnicornio.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.row .col .card {
+  box-shadow: 0px 0px 10px white;
+}
+
+/*Color del boton*/
+.btn,
+.btn-large,
+.btn-small {
+  background-color: var(--rosa);
+}
+
+h3 {
+  line-height: 15px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+}
+
+.card-action {
+  height: 260px;
+  color: white;
+  border-bottom: 1px solid var(--rosa);
+  text-shadow: 0px 0px 1px black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9248083 !important;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+@media only screen and (max-width: 595px) {
+  .card-action {
+    height: 550px;
+  }
+}
+
+.card-action h4 {
+  font-size: 25px;
+}
+
+.row .col .card .input-field input[type="password"],
+label {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.row .col .card .input-field input[type="date"],
+label {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.row .col .card .input-field input[type="text"],
+label {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.row .col .card .input-field input[type="email"],
+label {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+button {
+
+  color: white;
+}
+
+/*Color al pickear un dia*/
+.datepicker-table td.is-selected {
+  background-color: var(--rosatr);
+}
+
+/*Color del date*/
+.datepicker-date-display {
+  background-color: var(--rosa);
+}
+
+/*Color del boton del calendario*/
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+  color: var(--rosa) !important;
+}
+
+:root {
+  --rosa: #e92480;
+  --rosatr: #e9248083;
+}
+
+.card {
+  box-shadow: 0px 0px 5px gray;
+  margin-top: 20%;
+}
+
+.row .input-field p {
+  margin-left: 13px;
+}
+
+.HaciaR {
+  padding-bottom: 25px;
+  color: white !important;
+  line-height: 15px;
+}
+
+a {
+  color: pink;
+}
+
+/*Registro*/
+.row .col .card p {
+  color: rgba(255, 255, 255, 0.541);
+
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-shadow: 0px 0px 17px black;
+  padding: 0px;
+}
+
+/*Color de las opciones*/
+.dropdown-content li>a,
+.dropdown-content li>span {
+  color: var(--rosa);
+}
+
+/*Color de la opcion al hacer focus*/
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid var(--rosatr);
+}
+
+/*Color de todos los input type*/
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+  border-bottom: 1px solid var(--rosatr);
+}
+
+/*Color al momento de hacer*/
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  /*No me hace caso XD  luego lo soluciono*/
+  border-bottom: 1px solid pink;
+  box-shadow: 0 1px 0 0 var(--rosa);
+}
+
+/*---------*/
+.HaciaR a:hover {
+  color: white;
+}
+
+.row .card .row .input-field input:focus~label {
+  color: white;
+}
+
+.row .card .row .input-field input:focus~input[type="text"] {
+  border-bottom: pink;
+}
+
+/* Nav */
+nav .nav-wrapper a img {
+  width: 126px;
+  margin-left: 20px;
+}
+
+.nav-wrapper {
+  background: var(--rosatr);
+  box-shadow: 0px 0px 5px black;
+}
+
+/*Footer*/
+.page-footer {
+  background: rgba(0, 0, 0, 0);
+  padding: 0px;
+  font-size: 13px;
+}
+
+.redSocial {
+  margin-left: 10px;
+  float: left;
+}
+
+.page-footer .row {
+  margin: 0px;
+}
+
+.page-footer .row .redSocial img {
+  width: 50px;
+}
