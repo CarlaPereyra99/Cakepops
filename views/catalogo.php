@@ -17,14 +17,14 @@
 
 <body>
     <header>
-        <?php include '../components/navbar.php' ?>            
-        <h3>Más Solicitados</h3>
+        <?php include '../components/navbar.php' ?>           
         <div class="carousel carousel-slider center">
-            <div class="carousel-item pink white-text" href="#one!">
+            <h2 class="carousel-fixed-item center-align pink-text">Más Solicitados</h2>
+            <div class="carousel-item purple lighten-3 white-text" href="#one!">
                 <p class="white-text" style="font-size: 20px">Maquillaje</p>
                 <img style="height: 340px; width: 800px" src="../image/PastelilloMaquillaje.jpg" alt="Imagen">
             </div>
-            <div class="carousel-item red white-text" href="#two!">
+            <div class="carousel-item red darken-4 white-text" href="#two!">
                 <p class="white-text" style="font-size: 20px">Enamorados</p>
                 <img style="height: 340px; width: 800px" src="../image/PastelilloAmor.jpg" alt="Imagen">
             </div>
@@ -40,6 +40,7 @@
     </header>
     <br><br>
     <div class="row center-align">
+        <h2></h2>
         <div class="carousel">
             <a class="carousel-item" href="#one!"><img src="../image/PastelillosEscuela.jpg"><span>Escuela</span></a>
             <a class="carousel-item" href="#two!"><img src="../image/PastelillosHarryPotter.jpg"><span>Harry
