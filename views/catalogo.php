@@ -17,16 +17,24 @@
 
 <body>
     <header>
-        <?php include '../components/navbar.php' ?>           
+        <?php include '../components/navbar.php' ?>
+
+        <!--Carrusel de imagenes mostrando los elementos mas vendidos, consta de un carrusel de
+            de diapositivas deslisables que cubre la parte superior de la pantalla completamente-->
         <div class="carousel carousel-slider center">
-            <h2 class="carousel-fixed-item center-align pink-text">Más Solicitados</h2>
+            <!--Descripción del carrusel, un elemento sobrpuesto que no cambia al deslizar-->
+            <h2 class="carousel-fixed-item center-align pink-text" style="-webkit-text-stroke: 2px purple;">Más
+                Solicitados</h2>
+            <!--Items del carrusel, consta de diapositivas del colores solidos con imágenes incrustadas-->
             <div class="carousel-item purple lighten-3 white-text" href="#one!">
                 <p class="white-text" style="font-size: 20px">Maquillaje</p>
-                <img style="height: 340px; width: 800px" src="../image/PastelilloMaquillaje.jpg" alt="Imagen">
+                <img class="responsive-img" style="height: 340px; width: 800px" src="../image/PastelilloMaquillaje.jpg"
+                    alt="Imagen">
             </div>
             <div class="carousel-item red darken-4 white-text" href="#two!">
                 <p class="white-text" style="font-size: 20px">Enamorados</p>
-                <img style="height: 340px; width: 800px" src="../image/PastelilloAmor.jpg" alt="Imagen">
+                <img class="responsive-img" style="height: 340px; width: 800px" src="../image/PastelilloAmor.jpg"
+                    alt="Imagen">
             </div>
             <div class="carousel-item green white-text" href="#three!">
                 <h2>Third Panel</h2>
@@ -39,16 +47,61 @@
         </div>
     </header>
     <br><br>
+
+    <!--Renglon que contiene un carrusel con los elementos de la temporada, vendidos recientemente y para cumpleaños, 
+        consta de un renglón con alineamiento al centro de la página, un carrusel
+        simple con imagenes incrustadas-->
     <div class="row center-align">
-        <h2></h2>
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="../image/PastelillosEscuela.jpg"><span>Escuela</span></a>
-            <a class="carousel-item" href="#two!"><img src="../image/PastelillosHarryPotter.jpg"><span>Harry
+        <h2 style="-webkit-text-stroke: 2px black; color: #5858FA;">De Temporada</h2>
+        <div class="carousel" style="height:200px;">
+            <a class="carousel-item" href="#one!"><img src="../image/PastelillosEscuela.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Escuela</span></a>
+            <a class="carousel-item" href="#two!"><img src="../image/PastelillosHarryPotter.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Harry
                     Potter</span></a>
-            <a class="carousel-item" href="#three!"><img src="../image/PastelillosMedico.jpg"><span>Médico</span></a>
-            <a class="carousel-item" href="#four!"><img src="../image/PastelilloSquareBob.jpg"><span>Bob
+            <a class="carousel-item" href="#three!"><img src="../image/PastelillosMedico.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Médico</span></a>
+            <a class="carousel-item" href="#four!"><img src="../image/PastelilloSquareBob.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Bob
                     Esponja</span></a>
-            <a class="carousel-item" href="#five!"><img src="../image/PastelilloUniverso.jpg"><span>Universo</span></a>
+            <a class="carousel-item" href="#five!"><img src="../image/PastelilloUniverso.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Universo</span></a>
+        </div>
+    </div>
+
+    <div class="row center-align">
+        <h2 style="-webkit-text-stroke: 2px black; color: #5858FA;">Vendido Recientemente</h2>
+        <div class="carousel" style="height:200px;">
+            <a class="carousel-item" href="#one!"><img src="../image/PastelillosEscuela.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Escuela</span></a>
+            <a class="carousel-item" href="#two!"><img src="../image/PastelillosHarryPotter.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Harry
+                    Potter</span></a>
+            <a class="carousel-item" href="#three!"><img src="../image/PastelillosMedico.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Médico</span></a>
+            <a class="carousel-item" href="#four!"><img src="../image/PastelilloSquareBob.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Bob
+                    Esponja</span></a>
+            <a class="carousel-item" href="#five!"><img src="../image/PastelilloUniverso.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Universo</span></a>
+        </div>
+    </div>
+
+    <div class="row center-align">
+        <h2 style="-webkit-text-stroke: 2px black; color: #5858FA;">Cumpleaños</h2>
+        <div class="carousel" style="height:200px;">
+            <a class="carousel-item" href="#one!"><img src="../image/PastelillosEscuela.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Escuela</span></a>
+            <a class="carousel-item" href="#two!"><img src="../image/PastelillosHarryPotter.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Harry
+                    Potter</span></a>
+            <a class="carousel-item" href="#three!"><img src="../image/PastelillosMedico.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Médico</span></a>
+            <a class="carousel-item" href="#four!"><img src="../image/PastelilloSquareBob.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Bob
+                    Esponja</span></a>
+            <a class="carousel-item" href="#five!"><img src="../image/PastelilloUniverso.jpg"><span
+                    style="-webkit-text-stroke: 2px black; color: #5858FA;">Universo</span></a>
         </div>
     </div>
 
@@ -56,7 +109,7 @@
     <!--Footer-->
     <?php include '../components/footer.php' ?>
     <!--FIN DEL FOOTER-->
-    
+
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="../js/materialize.js"></script>
     <script type="text/javascript" src="../js/material.js"></script>

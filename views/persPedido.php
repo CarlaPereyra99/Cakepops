@@ -25,7 +25,7 @@
         <!--Una tarjeta que cubre 2 columnas en pantalla grande y está a 1 columa de distancia del margen,
             en pantalla mediana cubre 3 columnas y está a una columna del margen,
             en pantalla chica cubre 8 columnas y está a 2 columnas del margen -->
-        <div class="col s8 offset-s2 m3 offset-m1 l2 offset-l1 card" style="margin-top: 0px; padding: 0px">
+        <div class="col s8 offset-s2 m4 offset-m4 l2 offset-l1 card" style="margin-top: 0px; padding: 0px">
             <div class="card-action" style="height: 50px; padding: 15px">
                 <h3 class="center-align" style="margin-top: 0px">Tamaño de Caja</h3>
             </div>
@@ -55,7 +55,7 @@
         </div>
 
         <!--Pequeña tarjeta que muestra el precio a pagar-->
-        <div class="card container col l2 offset-l1" style="margin-top: 0px" id="precio">
+        <div class="card container col s10 offset-s1 m3 offset-m8 l2 offset-l1" style="margin-top: 0px" id="precio">
             <h3 class="white-text">Costo: $<input disabled value="" class="white-text center-align" type="number"
                     name="precio" id="precio"></h3>
         </div>
